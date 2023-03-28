@@ -22,8 +22,6 @@ const Hour = ({ dataHour, hourEvents, dataDay, getEventsList }) => {
         )}`;
         const eventStartX = dateFrom.getHours;
 
-        console.log(eventStart);
-        console.log(eventStartX);
         return (
           <Event
             id={id}
